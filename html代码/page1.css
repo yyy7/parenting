@@ -1,0 +1,151 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body,html{
+margin-left:60px;
+}
+.head{
+height: 25px;
+width: 1100px;
+background: #E4E4E4;
+}
+.head .a{
+height: 22px;
+width:60px;
+margin: auto 0px auto 80px;
+line-height: 23px; 
+font-size: 12px;
+    float: left;
+}
+.head .b{
+height: 22px;
+width:160px;
+margin: auto 0px auto 680px;
+line-height: 23px; 
+font-size: 12px;
+    float: left;
+}
+.top {
+height:145px;
+width: 1100px;
+background: url("images/u1.jpg") repeat-x;
+}
+.top .a{
+height: 130px;
+width: 290px;
+    margin-left: 30px;
+    float:left;
+}
+
+
+.top .b{
+height: 80px;
+width: 150px;
+    margin-left: 180px;
+    margin-top: 60px;
+    float:left;
+    font-size: 0.6rem;
+}
+.top .c{
+    width: 230px;
+    height: 60px;
+    margin-top:40px;
+    float: left;
+    margin-left: 20px;
+}
+.top .d{
+    width: 200px;
+    height: 55px;
+    margin-top: 45px;
+    margin-left: 0px;
+    font-size: 0.9rem;
+    float: left;
+}
+.top .d .button{
+   width: 80px;
+   height: 25px;
+    border-radius: 4px;
+}
+
+ul, li { list-style:none;z-index: 2;}
+a { text-decoration:none;}
+.nav {  
+    width: 1100px;
+    height:40px;
+    background:url("images/u5.png") repeat-x;
+    overflow:hidden; 
+    float:left; 
+}
+.nav ul li { float:left;}
+.nav ul li a {
+    width:180px; 
+    height:40px; 
+    text-align:center; 
+    line-height:40px; 
+    display:block; 
+    color:black;
+    font-size:0.9rem;
+}
+.nav ul li a:hover{ 
+    color:#f00;
+}
+.nav ul li ul {
+    position:absolute; 
+    display:none; 
+    }
+.nav ul li ul li { 
+    float:none;
+}
+.nav ul li ul li a { 
+    border-right:none; 
+    background:url("images/u5.png") repeat-x;}
+.nav ul li:hover ul{ display:block; }
+
+.bg{
+    clear: both;
+    width: 1100px;
+    height: 800px;
+background: #FFFFCC;
+    margin-top: 40px;
+}
+
+.bg .a{
+    width: 700px;
+    height:800px;
+    float:left;}
+.bg .b{
+    width: 400px;
+    height:700px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+.foot{
+width: 1100px;
+height: 80px;
+background: white;
+}
+.foot .foot-con
+{
+margin-left: 300px;}
+.foot a{
+
+width:150px;
+height:30px;
+font-size: 14px;
+color:black;
+    
+}
+.foot .b{
+    width:400px;
+    height: 30px;
+    font-size: 14px;
+    color:black;
+}
